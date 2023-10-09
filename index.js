@@ -45,3 +45,10 @@ const pizzas = [
     imagen: "./img/anana.png",
   },
 ];
+
+const form = document.getElementsByClassName("add-form");
+const input = document.getElementsByClassName("input-number");
+const buttom = document.getElementsByClassName("btn");
+const contenedor = document.getElementsByClassName("container");
+
+const card = document.getElementsByClassName("card-img");
