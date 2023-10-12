@@ -34,36 +34,34 @@ Deberán guardar en localStorage la última pizza buscada y renderizada, y al re
   -->
 
     <main>
-      <section>
-        <h1>E2-Js</h1>
-        <h2>Bienvenidos de nuevo a la pizzeria de Nucba!🍕</h2>
-        <hr />
-        <p>Cual Pizza quiere?</p>
-        <form class="add-form">
-          <input class="input-number" type="number" />
-          <button class="btn" type="submit">
-            Buscar <img src="./img/lupa.svg" alt="" />
-          </button>
-          <div class="container">
-            <ol>
-              <li>
-                <img class="card-img" src="./img/4quesos.png" alt="" />
-              </li>
-              <li>
-                <img class="card-img" src="./img/anana.png" alt="" />
-              </li>
-              <li>
-                <img class="card-img" src="./img/cebolla.png" alt="" />
-              </li>
-              <li>
-                <img class="card-img" src="./img/especial.png" alt="" />
-              </li>
-              <li>
-                <img class="card-img" src="./img/muzzarella.png" alt="" />
-              </li>
-            </ol>
+      <h1>E3-Js</h1>
+      <img src="./img/pizza.png" alt="pizza_nucba" />
+      <h2>Bienvenidos de nuevo a la pizzeria de Nucba!🍕</h2>
+      <hr />
+      <p>Cual Pizza quiere?</p>
+      <p>Menu del 1 al 5!</p>
+      <label for=""></label>
+      <form id="add-form">
+        <input class="input-number" type="number" />
+        <button class="btn" type="submit">
+          Buscar <img src="./img/lupa.svg" alt="" />
+        </button>
+      </form>
+      <section id="result-container">
+        <div class="pizza-container">
+          <h3 class="error-title">No hay pizza guardada en LS</h3>
+        </div>
+        <div class="card">
+          <img src="./img/4quesos.png" alt="pizza 4 quesos" class="card_img" />
+          <div class="card-info">
+            <h3 class="card-title">aca va el nombre de la pizza del array</h3>
+
+            <div class="card-body">
+              <span class="card-description">aca va ingredientes del array</span
+              ><span class="card-price">El precio de el array</span>
+            </div>
           </div>
-        </form>
+        </div>
       </section>
     </main>
     <script src="index.js"></script>
